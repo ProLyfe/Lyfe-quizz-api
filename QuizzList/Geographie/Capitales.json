@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "question": "France",
+        "answer": "Paris",
+        "continent": "Europe"
+    },
+    {
+        "id": 2,
+        "question": "Allemagne",
+        "answer": "Berlin",
+        "continent": "Europe"
+    },
+    {
+        "id": 3,
+        "question": "Italie",
+        "answer": "Rome",
+        "continent": "Europe"
+    },
+    {
+        "id": 4,
+        "question": "Australie",
+        "answer": "Canberra",
+        "continent": "Océanie"
+    },
+    {
+        "id": 5,
+        "question": "L'île Maurice",
+        "answer": "Port Louis",
+        "continent": "Afrique"
+    }
+]

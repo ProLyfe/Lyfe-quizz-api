@@ -12,6 +12,8 @@ io.on('connection', socket => {
     socket.on('newUser', data => {
         users.push(data);
         socket.broadcast.emit('sendUsersList', users);
+        const waitingMessage = users.length === 2 ? 'le jeux commence' : 'Patientez';
+        socket.broadcast.emit('waitingEvent', waitingMessage);
     });
 });
 
